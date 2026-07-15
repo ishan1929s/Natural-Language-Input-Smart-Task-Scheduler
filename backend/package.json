@@ -1,0 +1,40 @@
+{
+  "name": "scheduling_project",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "node test-backend.js",
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ByteWarrior23/Smart-Task-Scheduler-with-Natural-Language-Input.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "chrono-node": "^2.9.0",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.2.3",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "microsoft-cognitiveservices-speech-sdk": "^1.46.0",
+    "mongoose": "^8.18.3",
+    "multer": "^2.0.2",
+    "natural": "^8.1.0",
+    "node-cron": "^4.2.1",
+    "node-fetch": "^3.3.2",
+    "node-wit": "^4.0.0",
+    "nodemailer": "^7.0.6",
+    "prettier": "^3.6.2",
+    "rrule": "^2.8.1",
+    "spacy-js": "^0.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
